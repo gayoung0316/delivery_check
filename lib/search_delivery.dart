@@ -1,7 +1,8 @@
+import 'dart:async';
+
 import 'package:delivery_project/delivery_state_list.dart';
 import 'package:delivery_project/model/delivery_list.dart';
 import 'package:delivery_project/provider/delivery_provider.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
@@ -15,7 +16,6 @@ class SearchDelivery extends StatefulWidget {
 }
 
 class _SearchDeliveryState extends State<SearchDelivery> {
-  Dio dio = Dio();
   String _carrierId = '';
   final TextEditingController _textEditingController = TextEditingController();
 
@@ -98,10 +98,14 @@ class _SearchDeliveryState extends State<SearchDelivery> {
                     width: 150.w,
                     child: TextField(
                       onSubmitted: (value) {
-                        deliveryProvider?.getDeliveryList(
-                          carrierId: _carrierId,
-                          trackId: value,
-                        );
+                        deliveryProvider!.deliveryLoading = true;
+                        Timer(const Duration(milliseconds: 1 * 1000), () {
+                          deliveryProvider?.getDeliveryList(
+                            carrierId: _carrierId,
+                            trackId: _textEditingController.value.text,
+                          );
+                          deliveryProvider!.deliveryLoading = false;
+                        });
                       },
                       controller: _textEditingController,
                       textAlignVertical: TextAlignVertical.center,
@@ -127,10 +131,14 @@ class _SearchDeliveryState extends State<SearchDelivery> {
                   ),
                   InkWell(
                     onTap: () {
-                      deliveryProvider?.getDeliveryList(
-                        carrierId: _carrierId,
-                        trackId: _textEditingController.value.text,
-                      );
+                      deliveryProvider!.deliveryLoading = true;
+                      Timer(const Duration(milliseconds: 1 * 1000), () {
+                        deliveryProvider?.getDeliveryList(
+                          carrierId: _carrierId,
+                          trackId: _textEditingController.value.text,
+                        );
+                        deliveryProvider!.deliveryLoading = false;
+                      });
                     },
                     child: Padding(
                       padding: EdgeInsets.only(left: 20.w),

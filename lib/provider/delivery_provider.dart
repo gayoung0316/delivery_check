@@ -8,6 +8,13 @@ class DeliveryProvider extends ChangeNotifier {
   Delivery? _delivery;
   Delivery? get delivery => _delivery;
 
+  bool _deliveryLoading = false;
+  bool get deliveryLoading => _deliveryLoading;
+  set deliveryLoading(bool value) {
+    _deliveryLoading = value;
+    notifyListeners();
+  }
+
   Future<void> getDeliveryList({String? carrierId, String? trackId}) async {
     _delivery = (await _deliveryApi.getMyDeliveryList(
       carrierId: carrierId!,
