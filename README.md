@@ -36,6 +36,5 @@ https://tracker.delivery/guide/
 
 커스텀한 드롭다운(택배사 선택)
 
-![택배사 선택 및 운송장 번호 입력 후](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e338b61-0186-4cd5-bee3-f679b7b9e50c/Simulator_Screen_Shot_-_iPhone_12_Pro_Max_-_2022-01-15_at_13.39.14.png)
-
+![](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6e338b61-0186-4cd5-bee3-f679b7b9e50c/Simulator_Screen_Shot_-_iPhone_12_Pro_Max_-_2022-01-15_at_13.39.14.png)
 택배사 선택 및 운송장 번호 입력 후
