@@ -36,5 +36,5 @@ https://tracker.delivery/guide/
 
 커스텀한 드롭다운(택배사 선택)
 
-<img width="80%" src="https://user-images.githubusercontent.com/66982928/150528872-876ee2da-1ca9-49f9-a13f-7a63a078b031.png"/>
+<img width="50%" src="https://user-images.githubusercontent.com/66982928/150528872-876ee2da-1ca9-49f9-a13f-7a63a078b031.png"/>
 택배사 선택 및 운송장 번호 입력 후
