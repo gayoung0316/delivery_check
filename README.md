@@ -36,5 +36,5 @@ https://tracker.delivery/guide/
 
 커스텀한 드롭다운(택배사 선택)
 
-
+<img src="![Simulator%20Screen%20Shot%20-%20iPhone%2012%20Pro%20Max%20-%202022-01-15%20at%2013 38 24](https://user-images.githubusercontent.com/66982928/150528805-5e687335-aae8-4ef3-901b-14cf3f9288f4.png)"  width="700" height="370">
 택배사 선택 및 운송장 번호 입력 후
