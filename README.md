@@ -36,5 +36,5 @@ https://tracker.delivery/guide/
 
 커스텀한 드롭다운(택배사 선택)
 
-https://s3.us-west-2.amazonaws.com/secure.notion-static.com/c68432c2-21e1-4f71-9af7-72827d192b45/Simulator_Screen_Shot_-_iPhone_12_Pro_Max_-_2022-01-15_at_13.38.24.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220121%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220121T124016Z&X-Amz-Expires=86400&X-Amz-Signature=8f8db1199c7d0e5dbfb8a9ec8646704a0155d3940ca7f092b03338c68132bcab&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Simulator%2520Screen%2520Shot%2520-%2520iPhone%252012%2520Pro%2520Max%2520-%25202022-01-15%2520at%252013.38.24.png%22&x-id=GetObject![image](https://user-images.githubusercontent.com/66982928/150528652-d6c0c576-570b-4aea-a74e-c8c85419f0bb.png)
+
 택배사 선택 및 운송장 번호 입력 후
