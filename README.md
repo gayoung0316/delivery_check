@@ -27,17 +27,17 @@ https://tracker.delivery/guide/
 <img width="30%" src="https://user-images.githubusercontent.com/66982928/150528872-876ee2da-1ca9-49f9-a13f-7a63a078b031.png"/>
 스플래쉬 화면
 
-<br>
+<br><br>
 
 <img width="30%" src="https://user-images.githubusercontent.com/66982928/150529234-efe086ba-4f2e-4373-81ef-e0b63a6277ae.png"/>
 택배사 선택 및 운송장 번호 입력 전
 
-<br>
+<br><br>
 
 <img width="30%" src="https://user-images.githubusercontent.com/66982928/150529355-d63c0e91-2c14-44fd-a579-de41e49c7ab3.png"/>
 택배사 선택 다이얼로그
 
-<br>
+<br><br>
 
 <img width="30%" src="https://user-images.githubusercontent.com/66982928/150529443-e1471f0e-6978-47da-b5c1-f4424b4b76cc.png"/>
 택배사 선택 및 운송장 번호 입력 후 결과 화면
