@@ -2,7 +2,7 @@
 
 📌 현재 택배 배송 상태를 확인 할 수 있는 앱
 
-<br>
+<br><br>
 
 ### 사용 패키지
 1. flutter_screenutil - 기기별 화면 사이즈를 대응하기 위해 사용
@@ -24,17 +24,20 @@ https://tracker.delivery/guide/
 <br>
 
 ### 화면 구성
-![스플래쉬 화면](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c68432c2-21e1-4f71-9af7-72827d192b45/Simulator_Screen_Shot_-_iPhone_12_Pro_Max_-_2022-01-15_at_13.38.24.png)
-
+<img width="30%" src="https://user-images.githubusercontent.com/66982928/150528872-876ee2da-1ca9-49f9-a13f-7a63a078b031.png"/>
 스플래쉬 화면
 
-![택배사 선택 및 운송장 번호 입력 전](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0039854d-f29f-4cdd-a4fa-a3ca53b9be53/Simulator_Screen_Shot_-_iPhone_12_Pro_Max_-_2022-01-15_at_13.38.28.png)
+<br>
 
+<img width="30%" src="https://user-images.githubusercontent.com/66982928/150529234-efe086ba-4f2e-4373-81ef-e0b63a6277ae.png"/>
 택배사 선택 및 운송장 번호 입력 전
 
-![커스텀한 드롭다운(택배사 선택)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae5d4c27-1680-478f-9a18-bf900adc2b4c/Simulator_Screen_Shot_-_iPhone_12_Pro_Max_-_2022-01-15_at_13.38.35.png)
+<br>
 
-커스텀한 드롭다운(택배사 선택)
+<img width="30%" src="https://user-images.githubusercontent.com/66982928/150529355-d63c0e91-2c14-44fd-a579-de41e49c7ab3.png"/>
+택배사 선택 다이얼로그
 
-<img width="30%" src="https://user-images.githubusercontent.com/66982928/150528872-876ee2da-1ca9-49f9-a13f-7a63a078b031.png"/>
-택배사 선택 및 운송장 번호 입력 후
+<br>
+
+<img width="30%" src="https://user-images.githubusercontent.com/66982928/150529443-e1471f0e-6978-47da-b5c1-f4424b4b76cc.png"/>
+택배사 선택 및 운송장 번호 입력 후 결과 화면
